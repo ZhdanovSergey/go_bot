@@ -1,3 +1,4 @@
+import os
 from dlgo import gotypes
 
 COLS = 'ABCDEFGHJKLMNOPQRST'
@@ -6,6 +7,9 @@ STONE_TO_CHAR = {
  gotypes.Player.black: ' x ',
  gotypes.Player.white: ' o ',
 }
+
+def clear_console():
+	os.system('cls' if os.name=='nt' else 'clear')
 
 def print_move(player, move):
 	if move.is_pass:
@@ -24,4 +28,10 @@ def print_board(board):
 			stone = board.get(gotypes.Point(row=row, col=col))
 			line.append(STONE_TO_CHAR[stone])
 		print('%s%d %s' % (bump, row, ''.join(line)))
-	print(' ' + ' '.join(COLS[:board.num_cols]))
+	print()
+	print('    ' + '  '.join(COLS[:board.num_cols]))
+
+def point_from_coords(coords):
+	col = COLS.index(coords[0].upper()) + 1
+	row = int(coords[1:])
+	return gotypes.Point(row=row, col=col)

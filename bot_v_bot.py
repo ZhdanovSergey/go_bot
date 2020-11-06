@@ -1,11 +1,7 @@
-import os
 import time
 from dlgo import gotypes, goboard
 from dlgo.agent import naive
-from dlgo.utils import print_board, print_move
-
-def clear_console():
-	os.system('cls' if os.name=='nt' else 'clear')
+from dlgo.utils import clear_console, print_board, print_move
 
 def main():
 	board_size = 9
