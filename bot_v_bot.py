@@ -1,5 +1,5 @@
 import time
-from dlgo import gotypes, goboard
+from dlgo import gotypes, goboard_fast as goboard
 from dlgo.agent import naive
 from dlgo.utils import clear_console, print_board, print_move
 
@@ -11,7 +11,7 @@ def main():
 		gotypes.Player.white: naive.RandomBot(),
 	}
 	while not game.is_over():
-		time.sleep(0.3)
+		# time.sleep(0.1)
 		clear_console()
 		print_board(game.board)
 		bot_move = bots[game.next_player].select_move(game)
