@@ -21,8 +21,12 @@
   <component name="ChangeListManager">
     <list default="true" id="76e1df97-e411-4033-ae95-fbf9de8b1de2" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dlgo/mcts/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dlgo/mcts/minimax.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bot_v_bot.py" beforeDir="false" afterPath="$PROJECT_DIR$/random_vs_self.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dlgo/goboard_fast.py" beforeDir="false" afterPath="$PROJECT_DIR$/dlgo/goboard_fast.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dlgo/minimax/alphabeta.py" beforeDir="false" afterPath="$PROJECT_DIR$/dlgo/minimax/alphabeta.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dlgo/minimax/minimax.py" beforeDir="false" afterPath="$PROJECT_DIR$/dlgo/minimax/minimax.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dlgo/scoring.py" beforeDir="false" afterPath="$PROJECT_DIR$/dlgo/scoring.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/human_v_bot.py" beforeDir="false" afterPath="$PROJECT_DIR$/random_vs_human.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,6 +37,9 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1mP6coDhn3ndN978xEgLTfpisnh" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -43,6 +50,11 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="TERMINAL_CUSTOM_COMMANDS_GOT_IT" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Сергей\Desktop\go_bot" />
+    </key>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -68,5 +80,11 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="347" y="303" width="585" height="801" key="find.popup" timestamp="1609905436468">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="347" y="303" width="585" height="801" key="find.popup/0.0.2560.1400@0.0.2560.1400" timestamp="1609905436468" />
   </component>
 </project>

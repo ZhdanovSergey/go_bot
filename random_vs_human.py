@@ -1,11 +1,15 @@
+from six.moves import input
+import sys
+
 from dlgo.agent import naive
 from dlgo import goboard
 from dlgo import gotypes
-from dlgo.utils import clear_console, print_board, print_move, point_from_coords
-from six.moves import input
+from dlgo.utils import print_board, print_move, point_from_coords, clear_console
+
+
+board_size = int(sys.argv[1]) if len(sys.argv) == 2 else 9
 
 def main():
-	board_size = 9
 	game = goboard.GameState.new_game(board_size)
 	bot = naive.RandomBot()
 	while not game.is_over():
@@ -24,6 +28,7 @@ def main():
 		else:
 			move = bot.select_move(game)
 		game = game.apply_move(move)
+	print(game.winner(), 'win')
 
 if __name__ == '__main__':
 	main()
