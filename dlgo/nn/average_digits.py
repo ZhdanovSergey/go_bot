@@ -16,7 +16,7 @@ avg_eight = average_digit(train, 8)
 # plt.show()
 
 W = np.transpose(avg_eight)
-b = -3 * 10**6
+b = -45
 
 def predict(x, W, b):
 	return sigmoid_double(np.dot(W, x) + b)
