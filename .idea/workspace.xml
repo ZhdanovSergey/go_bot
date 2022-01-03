@@ -21,6 +21,14 @@
   <component name="ChangeListManager">
     <list default="true" id="76e1df97-e411-4033-ae95-fbf9de8b1de2" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dlgo/agent/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/dlgo/agent/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dlgo/agent/base.py" beforeDir="false" afterPath="$PROJECT_DIR$/dlgo/agent/base.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dlgo/agent/helpers.py" beforeDir="false" afterPath="$PROJECT_DIR$/dlgo/agent/helpers.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dlgo/agent/naive.py" beforeDir="false" afterPath="$PROJECT_DIR$/dlgo/agent/naive.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dlgo/mcts/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/dlgo/mcts/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dlgo/mcts/mcts.py" beforeDir="false" afterPath="$PROJECT_DIR$/dlgo/mcts/mcts.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dlgo/minimax/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/dlgo/minimax/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dlgo/minimax/alphabeta.py" beforeDir="false" afterPath="$PROJECT_DIR$/dlgo/minimax/alphabeta.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,6 +61,9 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../deep_learning_and_the_game_of_go-master" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Сергей\Desktop\go_bot" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Сергей\Desktop\go_bot" />
     </key>
