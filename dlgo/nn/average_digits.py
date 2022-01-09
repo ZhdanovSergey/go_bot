@@ -42,6 +42,6 @@ def evaluate(data, digit, treshold, W, b):
 	return correct_predictions / total_samples
 
 eight_test = [x for x in test if np.argmax(x[1]) == 8]
-print('train_eval', evaluate(train, 8, 0.5, W, b))
-print('test_eval', evaluate(test, 8, 0.5, W, b))
-print('test_eight_eval', evaluate(eight_test, 8, 0.5, W, b))
+# print('train_eval', evaluate(train, 8, 0.5, W, b))
+# print('test_eval', evaluate(test, 8, 0.5, W, b))
+# print('test_eight_eval', evaluate(eight_test, 8, 0.5, W, b))
