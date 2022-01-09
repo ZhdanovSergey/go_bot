@@ -1,5 +1,5 @@
-from dlgo.nn import average_digits
+from dlgo.nn import run_network
 
 
 if __name__ == '__main__':
-	average_digits()
+	run_network()
