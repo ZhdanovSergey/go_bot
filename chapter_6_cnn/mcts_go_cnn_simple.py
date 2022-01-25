@@ -17,8 +17,8 @@ X_train, X_test = X[:train_samples], X[train_samples:]
 Y_train, Y_test = Y[:train_samples], Y[train_samples:]
 
 model = Sequential()
-model.add(Conv2D(filters=48, kernel_size=(3, 3), activation='sigmoid', input_shape=input_shape))
-model.add(Conv2D(filters=48, kernel_size=(3, 3), activation='sigmoid'))
+model.add(Conv2D(filters=48, kernel_size=(3, 3), activation='sigmoid', padding='same', input_shape=input_shape))
+model.add(Conv2D(filters=48, kernel_size=(3, 3), activation='sigmoid', padding='same'))
 model.add(Flatten())
 model.add(Dense(512, activation='sigmoid'))
 model.add(Dense(size * size, activation='sigmoid'))
